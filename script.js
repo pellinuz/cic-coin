@@ -1,6 +1,6 @@
 var euro = document.getElementById("euro");
 var cicCoin = document.getElementById("ciccoin")
-var cicValue = "69,104";
+var cicValue = "69.104";
 
 function changeValue() {
 	var changed = euro.value * cicValue;
