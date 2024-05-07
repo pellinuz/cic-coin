@@ -4,5 +4,6 @@ var cicValue = "69.104";
 
 function changeValue() {
 	var changed = euro.value * cicValue;
-	cicCoin.innerHTML = `<p>` + changed + `</p>`;
+	cicCoin.innerHTML = "<p>" + changed + "</p>";
+	console.log(changed);
 }
