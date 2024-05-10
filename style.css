@@ -3,7 +3,6 @@ body {
 }
 
 #calc {
-	display: flex;
 	position: absolute;
 	align-items: center;
 	flex-wrap: wrap;
