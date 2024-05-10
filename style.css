@@ -1,0 +1,53 @@
+body {
+	font-family: Roboto;
+}
+
+#calc {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+input {
+	position: relative;
+	border: 0;
+	border-bottom: 2px solid black;
+	outline: none;
+	width: 400px;
+	font-size: xx-large;
+	text-align: center;
+	background: transparent;
+}
+
+input:focus {
+	animation-name: border;
+}
+
+@keyframes border {
+	from {
+		border: 0;
+	}
+
+	to {
+		border: 0;
+		border-bottom: 2px solid;
+		border-left: 2px solid;
+		border-right: 2px solid;
+	}
+}
+
+button {
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	font-size: xx-large;
+	border: 0;
+	background: orange;
+	border-radius: 20px;
+}
+
+#cic-value {
+	font-size: 40px;
+}
